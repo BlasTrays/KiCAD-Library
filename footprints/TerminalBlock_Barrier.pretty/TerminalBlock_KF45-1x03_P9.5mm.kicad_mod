@@ -1,0 +1,161 @@
+(footprint "TerminalBlock_KF45-1x03_P9.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "terminal block screw kf45")
+	(property "Reference" "REF**"
+		(at -0.02 -12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d983545-df1e-4008-a05a-1335f485a6c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF45-1x03_P9.5mm"
+		(at -0.02 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "621a21da-1f2f-40f7-a827-22ab33d6c180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d36df740-5b06-4cf4-84bb-2e82d5f08ab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Screw Terminal Block, KF45 Series, 9.5mm pitch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c75e912-4e4f-4547-85f6-e99a123ac261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -15.25 -8.1)
+		(end -13.01 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e88b2995-9155-4535-afad-630092a32ef5")
+	)
+	(fp_rect
+		(start -15.25 -8.1)
+		(end 15.25 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b9aeab1b-e1b7-43fb-be6c-53912b74fe8b")
+	)
+	(fp_rect
+		(start -5.95 -8.1)
+		(end -3.71 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c45efc76-37a6-4b4c-a604-c23841f57095")
+	)
+	(fp_rect
+		(start 3.4 -8.1)
+		(end 5.64 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "93ba23c0-2bb7-40d0-9e20-3088975cf3c2")
+	)
+	(fp_rect
+		(start 12.98 -8.1)
+		(end 15.22 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a1b3c7c0-5ec1-477e-9b1c-8b5d29db1913")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.02 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a72a93ea-414e-4e80-80b8-71ec47752bd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -9.5 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "238d7de7-f66f-4962-a9b9-ceff5a479705")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2e6827e-c05b-455d-a0eb-25f9488ccde4")
+	)
+	(pad "3" thru_hole circle
+		(at 9.5 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6030abf-4caf-42a6-b255-09ceb54ee20e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL}/KF55C-10.0-03P.step"
+		(offset
+			(xyz -9.5 0 0)
+		)
+		(scale
+			(xyz 0.93 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

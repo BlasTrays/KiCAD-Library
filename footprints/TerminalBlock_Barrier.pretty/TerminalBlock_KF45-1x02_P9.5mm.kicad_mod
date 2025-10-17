@@ -1,0 +1,142 @@
+(footprint "TerminalBlock_KF45-1x02_P9.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "KF45")
+	(property "Reference" "REF**"
+		(at 0 -12.96 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ccc1617-b78a-49fe-9be9-c1113b332cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_KF45-1x02_P9.5mm"
+		(at 0 -11.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "489182d1-dd0c-41a9-bceb-38e46d4b9fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba8652c6-01b5-4744-b49e-0871c48c9b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4501c478-d7d8-405b-8af4-28619e5df6ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.5 -8.1)
+		(end -7.96 8.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5feff165-b8ce-4903-ad61-a69255363b23")
+	)
+	(fp_rect
+		(start -10.5 -8.1)
+		(end 10.5 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6097c73a-73ec-4e38-801c-647f4993bae8")
+	)
+	(fp_rect
+		(start -1.27 -8.085)
+		(end 1.27 8.085)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39cace4c-1c38-4683-91fe-b81ad74862e1")
+	)
+	(fp_rect
+		(start 7.96 -8.085)
+		(end 10.5 8.085)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fe1da2fc-aa95-4452-844f-ce72b6d358a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b45dcd01-b301-4d3d-93d7-772f9d7f297e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.75 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e33e545-e58d-4e67-92a2-b8ff319df0e5")
+	)
+	(pad "2" thru_hole circle
+		(at 4.75 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bccb3c8-956a-4059-b6a5-ebbbdbc22911")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL}/TerminalBlock_KF45-1x02_P9.5.STEP"
+		(offset
+			(xyz 10.5 8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

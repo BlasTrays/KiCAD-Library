@@ -1,0 +1,137 @@
+(footprint "XL4015_Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "XL4015")
+	(property "Reference" "REF**"
+		(at -25.06 -12.53 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "74496bb1-34a7-454c-85fc-2c12527bb297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL4015"
+		(at -0.01 -14.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56ccf056-1140-4a13-9cdd-d22ae8f50fe8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e4280bb-c851-49c0-a668-1319f52c1365")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4c08d9c-530a-4d5e-afc3-353f77ddf46f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -27 -11.5)
+		(end 27 12.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "24770b67-a878-4c6f-bacd-376d2690b8c6")
+	)
+	(fp_text user "XL4015"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "991d9cf8-b323-4cbd-9ab2-b2b19bfae4d2")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 -12.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f97dd13f-c34d-429c-8ff3-88d76bf76f95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -25.63 -10.4)
+		(size 2.54 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f57bc99-3541-45a1-aaa6-b60d6cc045fe")
+	)
+	(pad "2" thru_hole rect
+		(at -25.63 11.18)
+		(size 2.54 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f48c270-d02a-4857-b425-2a2406c4a487")
+	)
+	(pad "3" thru_hole rect
+		(at 25.63 -10.4)
+		(size 2.54 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8e675d0-4379-4d13-ae4e-48366919ddd4")
+	)
+	(pad "4" thru_hole rect
+		(at 25.63 11.18)
+		(size 2.54 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "549ede95-2e18-4f30-ab94-ac7f2334b858")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL}/XL4015_MODELO_PISTAS.step"
+		(offset
+			(xyz 1 0.5 -55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

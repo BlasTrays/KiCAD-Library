@@ -1,0 +1,196 @@
+(footprint "LM2596_BUCK CONVERTER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -19.2 -11.325 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26d7764a-5430-4a0a-942c-32ffdfa68e40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM2596_BUCK CONVERTER"
+		(at 0 -11.325 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "be6602c6-e2db-468b-a85b-08d5c55ab6ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d764307a-42fd-4481-a821-af9b3abd4a09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa140433-023c-4284-90f0-03b580175708")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -21.6 -10.5)
+		(end 21.6 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e804d58-927e-46d7-9ec6-35e85fa472e6")
+	)
+	(fp_text user "OUT-"
+		(at 17.1 7.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32e22a1c-fbba-41dd-bf4b-42d70c79bcd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN-"
+		(at -21.55 7.38 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "495ae719-b097-4840-83a6-60d406f15a89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN+"
+		(at -21.57 -6.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5bad4968-e7cc-4192-ae71-9c6f4215013b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 17.1 -6.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b409d0b9-b510-41f0-acf6-5734dc19fb5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e44032d1-4790-42dd-aed4-efec88fb435d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -14.95 -8.4)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "61845ca0-4fbc-4630-9655-1ce9d79839b0")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.65 8.15)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e0ca1849-c0fa-4f73-b37e-0616232ffdd3")
+	)
+	(pad "1" thru_hole rect
+		(at -20.33 -9)
+		(size 2.49 2.95)
+		(drill 1.028
+			(offset 0.025 0.005)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ebc5f10-ccd2-4d5c-a95d-3aa3fafa137e")
+	)
+	(pad "2" thru_hole rect
+		(at -20.33 9)
+		(size 2.49 2.95)
+		(drill 1.028)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(uuid "52f30dd2-2793-4506-92c2-ce56c738356e")
+	)
+	(pad "3" thru_hole rect
+		(at 20.33 -9)
+		(size 2.49 2.95)
+		(drill 1.028
+			(offset -0.025 0.025)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1cf9907f-a9ff-4c7f-ae5c-9acaefe4beb9")
+	)
+	(pad "4" thru_hole rect
+		(at 20.33 9)
+		(size 2.49 2.95)
+		(drill 1.028
+			(offset 0 -0.025)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3efd130-2e4d-4761-8f8a-5153654d9439")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ThinkPad/Documents/KiCad/9.0/footprints/Power_Module.pretty/LM2596 DC to DC Buck Converter 3 A.STEP"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
